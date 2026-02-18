@@ -1,5 +1,5 @@
 {% set name = "pythonradex" %}
-{% set version = "1.0.9" %}
+{% set version = "2.0.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pythonradex-{{ version }}.tar.gz
-  sha256: 4c78eac1d4e5e08dca62d4475055de6d88fc5d9ca078ea86e18d9c86a4d5a7ba
+  sha256: 5298f640e6efd5b947dc85420df0acd1173d68e855540a5289837fc199d2c00d
 
 build:
   noarch: python
