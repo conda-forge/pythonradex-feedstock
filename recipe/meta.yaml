@@ -33,6 +33,7 @@ test:
     - pythonradex.helpers
     - pythonradex.molecule
   requires:
+    - python {{ python_min }}
     - pip
     - pytest
   source_files:
