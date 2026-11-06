@@ -1,5 +1,5 @@
 {% set name = "pythonradex" %}
-{% set version = "3.0.1" %}
+{% set version = "3.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/pythonradex-{{ version }}.tar.gz
-  sha256: fbca700a80fdbddd2e6ed3b491cedbd812a9bc9be10807dce0d714f21004cb03
+  sha256: a7e5aa1419baef22ad166179f73af82ce380d059020cb0a791e69e0204485d5b
 
 build:
   noarch: python
